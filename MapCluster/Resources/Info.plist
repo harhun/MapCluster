@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>GoogleMapKey</key>
+    <string>AIzaSyB9UZ7gAAqgMijE7H1XCpNc3lAiI7WOhEU</string>
+    <key>Coordinates</key>
+    <string>hotspots</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Cluster</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Saira-Black.otf</string>
+		<string>Saira-LightItalic.otf</string>
+		<string>Saira-Medium.otf</string>
+		<string>Saira-BoldItalic.otf</string>
+		<string>Saira-Light.otf</string>
+		<string>Saira-ThinItalic.otf</string>
+		<string>Saira-ExtraLight.otf</string>
+		<string>Saira-Thin.otf</string>
+		<string>Saira-Bold.otf</string>
+		<string>Saira-MediumItalic.otf</string>
+		<string>Saira-BlackItalic.otf</string>
+		<string>Saira-SemiBold.otf</string>
+		<string>Saira-ExtraLightItalic.otf</string>
+		<string>Saira-ExtraBold.otf</string>
+		<string>Saira-Regular.otf</string>
+		<string>Saira-Italic.otf</string>
+		<string>Saira-SemiBoldItalic.otf</string>
+		<string>Saira-ExtraBoldItalic.otf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

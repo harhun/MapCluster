@@ -1,0 +1,6 @@
+framework module Pods_MapCluster {
+  umbrella header "Pods-MapCluster-umbrella.h"
+
+  export *
+  module * { export * }
+}

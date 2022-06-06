@@ -1,0 +1,46 @@
+{
+  "name": "Resources",
+  "version": "0.0.1",
+  "summary": "Resources",
+  "description": "Extensions module",
+  "homepage": "https://test.by",
+  "license": "BSD",
+  "authors": {
+    "Raman Harhun": "r.harhun@gmail.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "path": "."
+  },
+  "source_files": "Resources/**/*.{h,m,swift}",
+  "resources": [
+    "Resources/**/*.{xcassets,strings}"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "R.swift": [
+
+    ]
+  },
+  "prepare_command": "touch \"Resources/Sources/R.generated.swift\"",
+  "script_phases": [
+    {
+      "name": "R.swift",
+      "script": "\"${PODS_ROOT}/R.swift/rswift\" generate --accessLevel public \"${PODS_TARGET_SRCROOT}/Resources/Sources/R.generated.swift\"",
+      "execution_position": "before_compile",
+      "input_files": [
+        "$TEMP_DIR/rswift-lastrun"
+      ],
+      "output_files": [
+        "${PODS_TARGET_SRCROOT}/Resources/Sources/R.generated.swift"
+      ]
+    }
+  ],
+  "swift_version": "5.0"
+}

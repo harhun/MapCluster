@@ -1,0 +1,14 @@
+${PODS_ROOT}/Target Support Files/Pods-MapCluster/Pods-MapCluster-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cluster/Cluster.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/Constants/Constants.framework
+${BUILT_PRODUCTS_DIR}/Core/Core.framework
+${BUILT_PRODUCTS_DIR}/Extensions/Extensions.framework
+${BUILT_PRODUCTS_DIR}/Models/Models.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework
+${BUILT_PRODUCTS_DIR}/Resources/Resources.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework
+${BUILT_PRODUCTS_DIR}/UIComponents/UIComponents.framework
+${BUILT_PRODUCTS_DIR}/UseCases/UseCases.framework

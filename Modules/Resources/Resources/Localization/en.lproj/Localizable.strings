@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by Raman Harhun 
+
+*/
+
+// MARK: - Common
+
+"Common.ok" = "Ok";
+"Common.cancel" = "Отмена";
+"Common.error" = "Ошибка";
+
+// MARK: - Success
+
+"Success.title" = "Успешно";
+
+// MARK: - Splash
+
+"Splash.title" = "Cluster";
+
+// MARK: - Welcome
+
+"Welcome.showMap" = "Открыть карту";
+
+// MARK: - Map
+
+"Map.title" = "Карта";
+
+// MARK: - Dev
+
+"Dev.developTitle" = "Pежим разработчика";
+"Dev.enable" = "Включить";
+"Dev.disable" = "Выключить";
+
+// MARK: - Error
+
+"Error.fileCorrupted" = "Файл с координатами поврежден. Пожалуйста, обратитесь к разработчику.";
+"Error.invalidData" = "Данные повреждены. Пожалуйста, обратитесь к разработчику.";
+"Error.serverError" = "Ошибка сервера. Пожалуйста, повторите попытку.";
+"Error.unknown" = "Неизвестная ошибка.";

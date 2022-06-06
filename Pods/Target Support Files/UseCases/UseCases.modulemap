@@ -1,0 +1,6 @@
+framework module UseCases {
+  umbrella header "UseCases-umbrella.h"
+
+  export *
+  module * { export * }
+}

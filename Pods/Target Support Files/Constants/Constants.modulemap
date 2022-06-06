@@ -1,0 +1,6 @@
+framework module Constants {
+  umbrella header "Constants-umbrella.h"
+
+  export *
+  module * { export * }
+}

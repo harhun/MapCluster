@@ -1,0 +1,114 @@
+PODS:
+  - App (0.0.1):
+    - Cluster
+    - Core
+    - UseCases
+  - Cluster (3.0.3)
+  - CocoaLumberjack/Core (3.7.4)
+  - CocoaLumberjack/Swift (3.7.4):
+    - CocoaLumberjack/Core
+  - Constants (0.0.1)
+  - Core (0.0.1):
+    - Constants
+    - Extensions
+    - Models
+    - Resources
+    - SnapKit
+    - UIComponents
+  - Extensions (0.0.1):
+    - Constants
+    - Resources
+    - Then
+  - Models (0.0.1):
+    - CocoaLumberjack/Swift
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - R.swift (6.1.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - Resources (0.0.1):
+    - R.swift
+  - SnapKit (5.0.1)
+  - SwiftFormat/CLI (0.48.11)
+  - SwiftLint (0.40.0)
+  - Then (2.7.0)
+  - UIComponents (0.0.1):
+    - Constants
+    - NVActivityIndicatorView
+    - Resources
+    - SnapKit
+    - Then
+  - UseCases (0.0.1):
+    - Core
+    - Models
+
+DEPENDENCIES:
+  - App (from `./Modules/App`)
+  - Cluster
+  - Constants (from `./Modules/Constants`)
+  - Core (from `./Modules/Core`)
+  - Extensions (from `./Modules/Extensions`)
+  - Models (from `./Modules/Models`)
+  - NVActivityIndicatorView
+  - R.swift
+  - Resources (from `./Modules/Resources`)
+  - SnapKit (~> 5.0.0)
+  - SwiftFormat/CLI (= 0.48.11)
+  - SwiftLint (= 0.40.0)
+  - Then (~> 2.7)
+  - UIComponents (from `./Modules/UIComponents`)
+  - UseCases (from `./Modules/UseCases`)
+
+SPEC REPOS:
+  trunk:
+    - Cluster
+    - CocoaLumberjack
+    - NVActivityIndicatorView
+    - R.swift
+    - R.swift.Library
+    - SnapKit
+    - SwiftFormat
+    - SwiftLint
+    - Then
+
+EXTERNAL SOURCES:
+  App:
+    :path: "./Modules/App"
+  Constants:
+    :path: "./Modules/Constants"
+  Core:
+    :path: "./Modules/Core"
+  Extensions:
+    :path: "./Modules/Extensions"
+  Models:
+    :path: "./Modules/Models"
+  Resources:
+    :path: "./Modules/Resources"
+  UIComponents:
+    :path: "./Modules/UIComponents"
+  UseCases:
+    :path: "./Modules/UseCases"
+
+SPEC CHECKSUMS:
+  App: 06a26bca79eade059143cd3a053989eea4703ee9
+  Cluster: d72510594f60d901905953aafdc811d1888177ae
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  Constants: bb1c224a8b04e72a66fd3906a6c18c95293ed075
+  Core: e20e53a50686cb80e98a6326aea3362b80969f9a
+  Extensions: cd22cca6111fbb2bb53cd96e119e630007f8b496
+  Models: bfe3ac6eab8e55688853233581afa84273d467bb
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  Resources: e5f241391f4aa63b06bc0816778077aa4a258e9a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftFormat: 938e5865a118c49d63c7a290ddad86335f9e585f
+  SwiftLint: 4154893c73a4c52d6240195507eb7a3e3c64087e
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  UIComponents: ac2b47cb60b98163167bf7c03a81f0d5f58bae4c
+  UseCases: 023b3030427e75e34e3b4a378350137a39a5dfc3
+
+PODFILE CHECKSUM: 79ffecc5453c98c1c88a0b431ab6383845a4efe8
+
+COCOAPODS: 1.11.2

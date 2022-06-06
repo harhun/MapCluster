@@ -1,0 +1,29 @@
+{
+  "name": "UseCases",
+  "version": "0.0.1",
+  "summary": "UseCases",
+  "description": "Extensions module",
+  "homepage": "https://test.by",
+  "license": "BSD",
+  "authors": {
+    "Raman Harhun": "r.harhun@gmail.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "path": "."
+  },
+  "source_files": "UseCases/**/*.{h,m,swift}",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "Models": [
+
+    ],
+    "Core": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
